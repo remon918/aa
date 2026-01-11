@@ -1,7 +1,308 @@
-.container{
-    background-color: aqua;
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 1600px;
+    justify-content: space-between;
+    height: 120px;
+    
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul{
+display: flex;
+
+gap: 32px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
 }
 
-.brainer{
-    background-color: aquamarine;
+.btn{
+    background-color: #30B868;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+}
+nav .btn:hover{
+    background-color: rgb(2, 4, 37);
+
+}
+ nav li:hover{
+    background-color: rgb(224, 206, 243);
+ }
+ nav .img:hover{
+    background-color: rgb(229, 224, 229);
+    cursor: pointer;
+ }
+ nav .img{
+    width: 139px;
+    height: 60px;
+
+ }
+
+ #banner{
+   background-color: #daa5a5;
+   background: url("./assets/hero-bg.png");
+   background-repeat: no-repeat;
+  
+   margin: 0;
+
+ }
+
+ #banner .banner-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 120px 135px;
+ }   
+
+ #banner .banner-topper{
+    
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+    border-radius: 1000px;
+    padding: 8px 12px;
+    max-width: 229px;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-bottom: 16px; */
+    cursor: pointer;
+ }
+
+ #banner .banner-topper:hover{
+    background-color:rgb(14, 3, 40);
+ }
+
+#banner .section-header{
+    max-width: 770px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin: 0 auto 16px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: inline;
+    /* margin-bottom: 16px; */
+}
+
+#banner .section-header .t1{
+    color: #FFFFFF;
+           
+}
+#banner .section-header .t2{
+    color: #30B868;
+}
+
+ #banner .banner-text{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom:32px ;
+ }
+
+#banner .btn2{
+    background-color: #30B868;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+    
+ }
+
+ .card-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 120px ;
+    background-color: #f7f6f2;
+
+ }
+
+ .card-container .section-header{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 16px;
+    
+ }
+
+ .card-container p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+ }
+
+ .card-container .card-head {
+    
+    /* align-items: center; */
+    display: flex;
+    gap: 24px;
+    
+ }
+
+ .card-head .card{
+    /* border: 1px solid rebeccapurple; */
+    padding: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 5px -5px 10px#e3ebf1;
+ }
+ .card .card-img{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    /* border:  solid #f95555; */
+    
+    margin-bottom: 16px;
+ }
+
+.card .card-info h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    
+}
+
+.card .card-info p{
+    line-height: 24px;
+    color: #627382;
+    font-size: 16px;
+}
+
+#about-brain{
+    width: 100%;
+    max-width: 1600px;
+   
+}    
+
+.brain-container{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+    padding: 120px;
+    
+}
+
+.brain-psycology .brain-img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+.brain-pera{
+       max-width: 700px;
+       align-items: center;
+       justify-items: left;
+}
+
+.brain-pera .b-body h4{
+    color: #30B868;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brain-pera .b-body h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.brain-pera .b-body h5{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.b-body .cheker{
+    line-height: 20px;
+    color: #001931;
+}
+
+#clear-container{
+    max-width: 1600px;
+    padding: 0px 120px 120px;
+    
+}
+
+#clear-container .clear{
+    width: 85%;
+    max-width: 1360px;
+    background-color: #f7f6f2;
+    padding: 80px 40px;
+    justify-items: center;
+
+}
+
+.clear h1{
+    color: #001931;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.clear h4{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+}
+
+.clear .align-center{
+    align-items: center;
+}  
+
+footer{
+    background-color: #001931;
+    max-width: 1600px;
+    padding: 120px 120px 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-container .social-links{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.copyright p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
+    margin-top: 30px;
 }
